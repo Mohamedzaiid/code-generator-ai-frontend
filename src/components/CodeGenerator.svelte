@@ -17,7 +17,7 @@
     
     try {
       const input = { prompt: inputCode };
-      const res = await fetch("http://localhost:3000/chat", {
+      const res = await fetch("https://code-generator-ai.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
